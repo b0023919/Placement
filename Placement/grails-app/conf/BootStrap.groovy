@@ -15,8 +15,8 @@ class BootStrap {
         def Paul = new Student(name:"Paul McGowan",courseCode:"9876",notes:"Is Irish").save();
 
         def WebDesign = new Placement(jobTitle:"Web Design",companyName:"Web Masters",status:Unavailable).save();
-        def aNursing = new Placement(jobTitle:"Adult Nursing",companyName:"Web Masters",status:Available).save();
-        def cNursing = new Placement(jobTitle:"Child Nursing",companyName:"Web Masters",status:Available).save();
+        def aNursing = new Placement(jobTitle:"Adult Nursing",companyName:"NHS",status:Available).save();
+        def cNursing = new Placement(jobTitle:"Child Nursing",companyName:"NHS",status:Available).save();
 
     }
 

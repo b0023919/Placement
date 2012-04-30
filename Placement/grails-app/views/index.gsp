@@ -75,6 +75,17 @@
 		</style>
 	</head>
 	<body>
-<h1>Hello</h1>
+
+<h1> Placements for students.</h1>
+<h2> Please fill in an application by going to this link:<br />
+<a href="../Placement/application/"> Placement Application</a></h2>
+<br />
+
+
+<br />
+<h2> Alternatively: </h2>
+<a href="../Placement/placement/"> List of Placements</a><br />
+<a href="../Placement/student/"> List of Students</a>
+
 	</body>
 </html>
