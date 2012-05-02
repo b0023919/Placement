@@ -26,3 +26,11 @@
 	<g:select id="student" name="student.id" from="${placement.Student.list()}" optionKey="id" required="" value="${applicationInstance?.student?.id}" class="many-to-one"/>
 </div>
 
+<div class="fieldcontain ${hasErrors(bean: applicationInstance, field: 'timeStamp', 'error')} required">
+	<label for="timeStamp">
+		<g:message code="application.timeStamp.label" default="Time Stamp" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:field type="number" name="timeStamp" required="" value="${fieldValue(bean: applicationInstance, field: 'timeStamp')}"/>
+</div>
+
